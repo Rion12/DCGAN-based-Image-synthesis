@@ -1,20 +1,16 @@
 # DCGAN-based-Image-synthesis
 
-This is an experimental tensorflow implementation of synthesizing images. The images are synthesized using the GAN-CLS Algorithm from the paper [Generative Adversarial Network ImageSynthesis][1]. This implementation is built on top of the excellent.
+This is an experimental tensorflow implementation of synthesizing images. The images are synthesized using the GAN-CLS Algorithm from the paper [Generative Adversarial Network ImageSynthesis][1]. 
 
 
 
 ## Requirements
 - [TensorFlow] 1.0+
-- [Imageio]
 
 ## Datasets
 - The model is currently trained on the famous Fashion-MNIST.
 
-**N.B**  You can downloads all data files needed manually or simply run the downloads.py and put the correct files to the right directories.
-```python 
-python downloads.py
-```
+
 
 ## Codes
 - `DCGAN.pynb` training the model.
